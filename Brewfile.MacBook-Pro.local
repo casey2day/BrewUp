@@ -67,6 +67,7 @@ brew "mongodb/brew/mongodb-community"
 brew "twilio/brew/twilio"
 cask "adoptopenjdk8"
 cask "chromedriver"
+cask "dangerzone"
 cask "iterm2"
 cask "ngrok"
 mas "Any.do", id: 944960179
