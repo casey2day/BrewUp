@@ -30,7 +30,7 @@ brew "git"
 brew "git-lfs"
 brew "gnu-sed"
 brew "libksba"
-brew "gnupg", link: false
+brew "gnupg"
 brew "netpbm"
 brew "graphviz"
 brew "grep"
