@@ -92,6 +92,7 @@ brew "wget"
 brew "wireguard-tools"
 brew "yarn"
 brew "ykpers"
+brew "youtube-dl"
 brew "zbar"
 brew "zlib"
 brew "acrogenesis/macchanger/macchanger"
@@ -111,7 +112,6 @@ mas "Book Track", id: 1496543317
 mas "Developer", id: 640199958
 mas "Forematter", id: 1498224474
 mas "LastPass", id: 926036361
-mas "Luminar AI", id: 1541310539
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
