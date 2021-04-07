@@ -45,7 +45,7 @@ echo "${green}==>${reset} Finished Brew&Casks Updates"
 # App Store Updates
 echo "${green}==>${reset} Running AppStore Updates..."
 mas outdated 2>&1
-mas upgrade 2>&1
+#mas upgrade 2>&1
 
 # Creating Dump File with hostname
 brew bundle dump --force --file="./${brewFileName}"
