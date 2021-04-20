@@ -79,8 +79,8 @@ brew "nginx"
 brew "nmap"
 brew "node"
 brew "openvpn"
-brew "php", link: false
-brew "php@7.4", link: true
+brew "php"
+brew "php@7.4"
 brew "postgresql"
 brew "proxychains-ng"
 brew "pyenv"
