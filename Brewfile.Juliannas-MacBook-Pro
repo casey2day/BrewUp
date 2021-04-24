@@ -119,20 +119,13 @@ cask "mailtrackerblocker"
 cask "ngrok"
 cask "rectangle"
 cask "xquartz"
-mas "Battery Health 2", id: 1120214373
-mas "Billable", id: 1549238888
 mas "Book Track", id: 1496543317
 mas "ChatSecure", id: 464200063
 mas "Developer", id: 640199958
-mas "Forematter", id: 1498224474
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Smart JSON Editor", id: 1268962404
-mas "Spark", id: 1176895641
-mas "Strongbox", id: 1270075435
 mas "Wappalyzer", id: 1520333300
 mas "Wayback Machine", id: 1472432422
-mas "Wire", id: 931134707
 mas "Xcode", id: 497799835
