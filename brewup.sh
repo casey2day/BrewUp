@@ -12,7 +12,8 @@ green=$(tput setaf 2)
 yellow=$(tput setaf 3)
 blue=$(tput setaf 4)
 reset=$(tput sgr0)
-brewFileName="Brewfile.${HOSTNAME}"
+#brewFileName="Brewfile.${HOSTNAME}"
+brewFileName="Brewfile.MBP"
 
 # Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ]; then
