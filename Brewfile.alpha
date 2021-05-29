@@ -121,6 +121,7 @@ cask "iterm2"
 cask "klogg"
 cask "mailtrackerblocker"
 cask "ngrok"
+cask "nuclear"
 cask "rectangle"
 cask "xquartz"
 mas "Book Track", id: 1496543317
