@@ -42,7 +42,7 @@ brew "clamav"
 brew "cmake"
 brew "create-dmg"
 brew "curl"
-brew "dnsmasq"
+brew "dnsmasq", restart_service: true
 brew "dropbear"
 brew "exiftool"
 brew "ffmpeg"
@@ -56,10 +56,8 @@ brew "git"
 brew "git-lfs"
 brew "gnu-sed"
 brew "grep"
-brew "hashcat"
 brew "libheif"
 brew "imagemagick"
-brew "john"
 brew "jq"
 brew "lapack"
 brew "libdnet"
@@ -78,12 +76,12 @@ brew "mitmproxy"
 brew "mp4v2"
 brew "mysql"
 brew "mysql-client"
-brew "nginx"
+brew "nginx", restart_service: true
 brew "nmap"
 brew "node"
 brew "openvpn"
-brew "php"
-brew "php@7.4"
+brew "php", restart_service: true, link: false
+brew "php@7.4", restart_service: true, link: true
 brew "pidgin"
 brew "postgresql"
 brew "proxychains-ng"
@@ -137,6 +135,7 @@ cask "rectangle"
 cask "reikey"
 cask "taskexplorer"
 cask "xquartz"
+mas "Billable", id: 1549238888
 mas "Book Track", id: 1496543317
 mas "ChatSecure", id: 464200063
 mas "Developer", id: 640199958
@@ -144,6 +143,7 @@ mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Strongbox", id: 1270075435
 mas "Tailscale", id: 1475387142
 mas "Wappalyzer", id: 1520333300
 mas "Wayback Machine", id: 1472432422
