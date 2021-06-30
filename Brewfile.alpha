@@ -80,8 +80,8 @@ brew "nginx", restart_service: true
 brew "nmap"
 brew "node"
 brew "openvpn"
-brew "php", restart_service: true, link: false
-brew "php@7.4", restart_service: true, link: true
+brew "php", restart_service: true
+brew "php@7.4", restart_service: true
 brew "pidgin"
 brew "postgresql"
 brew "proxychains-ng"
@@ -112,7 +112,6 @@ brew "acrogenesis/macchanger/macchanger"
 brew "dopplerhq/cli/doppler"
 brew "mongodb/brew/mongodb-community"
 brew "twilio/brew/twilio"
-cask "activitywatch"
 cask "adoptopenjdk8"
 cask "beagleim"
 cask "blockblock"
@@ -125,7 +124,6 @@ cask "icons8"
 cask "iterm2"
 cask "klogg"
 cask "knockknock"
-cask "libreoffice"
 cask "mailtrackerblocker"
 cask "ngrok"
 cask "nuclear"
